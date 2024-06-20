@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 6, Time elapsed: 1.829 s <<< FAILURE! - in TestSuite
+testscript.LoginTest.initializeBrowser  Time elapsed: 1.346 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method initializeBrowser but has not been marked @Optional or defined
+in C:\Users\91889\eclipse-workspace\GroceryApp\testng.xml
+
+testscript.LoginTest.initializeBrowser  Time elapsed: 0.013 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method initializeBrowser but has not been marked @Optional or defined
+in C:\Users\91889\eclipse-workspace\GroceryApp\testng.xml
+
+testscript.LoginTest.verifyLoginWithValidPswdOnly  Time elapsed: 0.042 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by @Test on method verifyLoginWithValidPswdOnly but has not been marked @Optional or defined
+in C:\Users\91889\eclipse-workspace\GroceryApp\testng.xml
+
+testscript.LoginTest.initializeBrowser  Time elapsed: 0.042 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method initializeBrowser but has not been marked @Optional or defined
+in C:\Users\91889\eclipse-workspace\GroceryApp\testng.xml
+

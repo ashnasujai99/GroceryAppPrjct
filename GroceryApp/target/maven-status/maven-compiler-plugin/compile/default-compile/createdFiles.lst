@@ -1,0 +1,16 @@
+utilities\FileUpload.class
+pages\ManagePages.class
+pages\ManageProduct.class
+utilities\FakerUtility.class
+pages\LoginClass.class
+utilities\ExcelUtilityClass.class
+pages\AdminUsersClass.class
+pages\CategoryPage.class
+utilities\ScreenShotCaptureUtility.class
+pages\Settings.class
+utilities\PageUtilities.class
+utilities\WaitUtilities.class
+constants\Constants.class
+pages\ExtendReportUtilities.class
+pages\ManageNews.class
+pages\CategoryList.class

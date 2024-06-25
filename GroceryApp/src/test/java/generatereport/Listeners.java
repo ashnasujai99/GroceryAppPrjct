@@ -9,7 +9,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import pages.ExtendReportUtilities;
+import utilities.ExtendReportUtilities;
 
 public class Listeners implements ITestListener {// its an interface
 	ExtentTest test;

@@ -49,7 +49,7 @@ public class BaseClass {
 		} else {
 			throw new Exception("browser is not correct");
 		}
-		driver.get("https://groceryapp.uniqassosiates.com/admin/login");
+		driver.get(properties.getProperty("url"));
 		driver.manage().window().maximize();
 	}
 
@@ -58,7 +58,7 @@ public class BaseClass {
 		if (itestresult.getStatus() == ITestResult.FAILURE) {
 			scrshot = new ScreenShotCaptureUtility();
 			scrshot.captureFailureScreenShot(driver, itestresult.getName());// method in screenshot utility
-//	  driver.close();
+	  driver.close();
 		}
 	}
 }

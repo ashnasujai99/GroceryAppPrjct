@@ -22,7 +22,7 @@ public class LoginTest extends BaseClass {
 		input[1][1] = "admin123";
 		return input;
 	}
-	@Test(groups= {"regression"}/*,dataProvider="Credentials",description="Verify user can able to login with valid credentials"*/)
+	@Test(groups= {"regression"},dataProvider="Credentials",description="Verify user can able to login with valid credentials")
 	@Parameters("browser")
 	public void verifyLoginWithValidCredentials(/*String name,String password*/) throws IOException {
 		String username_value = ExcelUtilityClass.getStringData(1, 0, "LoginPage");// admin

@@ -6,9 +6,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class PageUtilities {
-	public void fileUploadSendKey(WebElement element, String path) {
-		element.sendKeys(path);
-	}
 
 	public static void selectOptionByValue(WebElement element, String selectvalue) {
 		Select select = new Select(element);
